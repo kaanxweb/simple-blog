@@ -94,6 +94,14 @@ input[type=number]:focus,
       transform: translateX(-50%);
 }
 
+.xweb__card-title{
+      font-weight: unset !important;
+}
+
+.xweb__card-text{
+      font-weight: 300;
+}
+
 
 .xweb__pagination {
       --bs-pagination-color: #00A9FF;
