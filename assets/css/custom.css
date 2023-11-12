@@ -106,6 +106,12 @@ body {
       --bs-pagination-font-size: 1rem;
 }
 
+#blogContent{
+      font-size: 1.1rem;
+      font-weight: 400;
+      line-height: 1.5;
+}
+
 textarea:focus,
 textarea.form-control:focus,
 input.form-control:focus,
