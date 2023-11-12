@@ -7,14 +7,23 @@
       --bs-dropdown-link-active-bg: #2eb9ff;
 }
 
+::selection {
+      color: var(--text-color);
+
+}
+
 
 .dropdown-menu {
       --bs-dropdown-link-active-bg: #2eb9ff;
 }
 
+.form-control {
+      border-radius: 9999px;
+}
+
 .btn {
       --bs-btn-border-radius: 9999px;
- }
+}
 
 
 .btn-primary {
@@ -67,6 +76,23 @@ input[type=number]:focus,
 }
 
 
-.navbar {
-      height: 100px !important;
+
+.navbar-brand {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+}
+
+
+@media (max-width: 991px) {
+      .navbar-brand {
+            position: static;
+            transform: none;
+      }
+}
+
+@media (min-width: 992px) {
+      .navbar {
+            height: 100px !important;
+      }
 }
