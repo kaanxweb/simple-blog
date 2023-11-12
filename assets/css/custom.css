@@ -93,6 +93,10 @@ input[type=number]:focus,
   }
   
   @media (max-width: 991px) {
+      .navbar-tools{
+            justify-content: center;
+
+      }
       .navbar-brand {
           position: static;
           transform: none;
