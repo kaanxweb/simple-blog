@@ -1,42 +1,41 @@
-*{
-      margin:0;
-      padding:0;
+* {
+      margin: 0;
+      padding: 0;
       box-sizing: border-box;
-}
-
-body{
+  }
+  
+  body {
       font-family: 'Poppins', sans-serif;
-}
-
-:root {
-      --primary-color: #A0E9FF;
+  }
+  
+  :root {
+      --primary-color: #00A9FF;
       --button-color: #00A9FF;
       --button-color-hover: #0077FF;
       --border-color: #CDF5FD;
       --text-color: #00A9FF;
       --bs-dropdown-link-active-bg: #2eb9ff;
-}
-
-::selection {
+      --xweb-border-radius: 9999px;
+  }
+  
+  ::selection {
+      background-color: white;
       color: var(--text-color);
-
-}
-
-
-.dropdown-menu {
+  }
+  
+  .dropdown-menu {
       --bs-dropdown-link-active-bg: #2eb9ff;
-}
-
-.form-control {
+  }
+  
+  .form-control {
       border-radius: 9999px;
-}
-
-.btn {
+  }
+  
+  .btn {
       --bs-btn-border-radius: 9999px;
-}
-
-
-.btn-primary {
+  }
+  
+  .btn-primary {
       --bs-btn-color: #fff;
       --bs-btn-bg: #00A9FF;
       --bs-btn-border-color: #00A9FF;
@@ -48,12 +47,12 @@ body{
       --bs-btn-active-bg: #2eb9ff;
       --bs-btn-active-border-color: #5cc8ff;
       --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-      --bs-btn-disabled-color: #A0E9FF --bs-btn-disabled-bg: transparent;
+      --bs-btn-disabled-color: #A0E9FF;
+      --bs-btn-disabled-bg: transparent;
       --bs-btn-disabled-border-color: #89CFF3;
-}
-
-
-.btn-outline-primary {
+  }
+  
+  .btn-outline-primary {
       --bs-btn-color: #00A9FF;
       --bs-btn-border-color: #2eb9ff;
       --bs-btn-hover-color: #fff;
@@ -68,46 +67,78 @@ body{
       --bs-btn-disabled-bg: transparent;
       --bs-btn-disabled-border-color: #89CFF3;
       --bs-gradient: none;
-}
-
-textarea:focus,
-textarea.form-control:focus,
-input.form-control:focus,
-input[type=text]:focus,
-input[type=password]:focus,
-input[type=email]:focus,
-input[type=number]:focus,
-[type=text].form-control:focus,
-[type=password].form-control:focus,
-[type=email].form-control:focus,
-[type=tel].form-control:focus,
-[contenteditable].form-control:focus {
+  }
+  
+  textarea:focus,
+  textarea.form-control:focus,
+  input.form-control:focus,
+  input[type=text]:focus,
+  input[type=password]:focus,
+  input[type=email]:focus,
+  input[type=number]:focus,
+  [type=text].form-control:focus,
+  [type=password].form-control:focus,
+  [type=email].form-control:focus,
+  [type=tel].form-control:focus,
+  [contenteditable].form-control:focus {
       box-shadow: inset 0 0 0 var(--primary-color);
-}
-
-
-.navbar-brand {
+  }
+  
+  .navbar-brand {
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
   }
+
+  
+  .pagination {
+      --bs-pagination-padding-x: 0.75rem;
+      --bs-pagination-padding-y: 0.375rem;
+      --bs-pagination-font-size: 1rem;
+      --bs-pagination-color: #00A9FF;
+      --bs-pagination-border-color: #5cc8ff;
+      --bs-pagination-border-radius: var(--xweb-border-radius);
+      --bs-pagination-hover-color: #0077FF;
+      --bs-pagination-hover-bg: #b8e7ff;
+      --bs-pagination-hover-border-color: #5cc8ff;
+      --bs-pagination-focus-color: #0077FF;
+      --bs-pagination-focus-bg: #8ad8ff;
+      --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(0, 169, 255, 0.25);
+      --bs-pagination-active-color: #fff;
+      --bs-pagination-active-bg: #2eb9ff;
+      --bs-pagination-active-border-color: #2eb9ff;
+      --bs-pagination-disabled-color: #2eb9ff;
+      --bs-pagination-disabled-bg: #f1faff;
+      --bs-pagination-disabled-border-color: #b8e7ff;
+      display: flex;
+      padding-left: 0;
+      list-style: none;
+  }
+
+  .xweb__pagination-lg {
+      --bs-pagination-padding-x: 1.125rem;
+      --bs-pagination-padding-y: 0.5625rem;
+      --bs-pagination-font-size: 1rem;
+  }
   
   @media (max-width: 991px) {
-      .navbar-tools{
-            justify-content: center;
-
+      .navbar-tools {
+          justify-content: center;
       }
+  
       .navbar-brand {
           position: static;
           transform: none;
       }
   }
   
-@media (min-width: 992px) {
-      .navbar-tools{
-            height: 70px;
+  @media (min-width: 992px) {
+      .navbar-tools {
+          height: 70px;
       }
+  
       .navbar-main {
-            height: 100px !important;
+          height: 100px !important;
       }
-}
+  }
+  
