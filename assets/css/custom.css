@@ -23,7 +23,7 @@ body {
       color: var(--text-color);
 }
 
-.dropdown-menu {
+.xweb__dropdown-menu {
       --bs-dropdown-link-active-bg: #2eb9ff;
 }
 
@@ -31,11 +31,11 @@ body {
       border-radius: 9999px;
 }
 
-.btn {
+.xweb__btn {
       --bs-btn-border-radius: 9999px;
 }
 
-.btn-primary {
+.xweb__btn-primary {
       --bs-btn-color: #fff;
       --bs-btn-bg: #00A9FF;
       --bs-btn-border-color: #00A9FF;
@@ -52,7 +52,7 @@ body {
       --bs-btn-disabled-border-color: #89CFF3;
 }
 
-.btn-outline-primary {
+.xweb__btn-outline-primary {
       --bs-btn-color: #00A9FF;
       --bs-btn-border-color: #2eb9ff;
       --bs-btn-hover-color: #fff;
