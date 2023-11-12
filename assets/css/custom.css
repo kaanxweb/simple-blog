@@ -27,10 +27,6 @@ body {
       --bs-dropdown-link-active-bg: #2eb9ff;
 }
 
-.form-control {
-      border-radius: 9999px;
-}
-
 .xweb__btn {
       --bs-btn-border-radius: 9999px;
 }
@@ -82,6 +78,10 @@ input[type=number]:focus,
 [type=tel].form-control:focus,
 [contenteditable].form-control:focus {
       box-shadow: inset 0 0 0 var(--primary-color);
+}
+
+.xweb__form-control {
+      border-radius: 9999px;
 }
 
 .navbar-brand {
