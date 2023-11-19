@@ -23,6 +23,10 @@ body {
       color: var(--text-color);
 }
 
+.xweb__text-primary {
+      color: var(--primary-color) !important;
+}
+
 .xweb__dropdown-menu {
       --bs-dropdown-link-active-bg: #2eb9ff;
 }
