@@ -65,6 +65,24 @@ body {
       --bs-gradient: none;
 }
 
+.btn-google {
+      color: white !important;
+      background-color: #ea4335;
+}
+
+.btn-google:hover{
+      background-color: #d33f2f;
+}
+
+.btn-facebook {
+      color: white !important;
+      background-color: #3b5998;
+}
+
+.btn-facebook:hover{
+      background-color: #344e86;
+}
+
 
 .xweb__form-control {
       border-radius: 9999px;
