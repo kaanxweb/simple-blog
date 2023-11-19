@@ -16,6 +16,11 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+      <!--Import Fontawesome 5-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -79,18 +84,29 @@
                               </li>
                         </ul>
                   </div>
-                  <a class="d-lg-block d-none nav-link" href="#"
-                        style="position: absolute; top: 10px; right: 20px; transform: translateY(50%);">
-                        <img src="assets/img/user.svg" width="40" alt="" srcset="">
-                  </a>
+
+                  <!-- Default dropstart button -->
+                  <div class="btn-group dropstart">
+                        <button type="button" class="btn xweb__btn btn-outline-primary xweb__btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown"
+                              aria-expanded="false">
+                              <i class="fa-regular fa-user"></i>
+                        </button>
+
+
+
+                        <ul class="dropdown-menu xweb__dropdown-menu">
+                              <li><a class="dropdown-item" href="login.html">Login</a></li>
+                              <li><a class="dropdown-item" href="register.html">Register</a></li>
+                        </ul>
+                  </div>
             </div>
       </nav>
 
-            <!-- Button trigger modal -->
-            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      <!-- Button trigger modal -->
+      <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                   Launch static backdrop modal
             </button> -->
-      
+
 
       <section class="py-5" id="header" style="background-image: url('assets/img/header.jpg');">
             <div class="px-4 py-5 my-5 text-center">
@@ -322,7 +338,7 @@
                                     aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                              
+
                         </div>
                         <div class="modal-footer">
                               <!-- <button type="button" class="btn btn-secondary xweb__btn" data-bs-dismiss="modal">Close</button>
