@@ -19,9 +19,9 @@
 </head>
 
 <body>
+
       <nav class="navbar navbar-tools bg-body-tertiary">
             <div class="container-fluid">
-                  <div class="d-none d-lg-block">&nbsp;</div>
                   <a class="navbar-brand d-none d-lg-block" href="./index.html" target="_blank">
                         <img src="./assets/img/logo.png" class="img-fluid" width="120" alt="Company Logo" srcset="">
                   </a>
@@ -79,8 +79,18 @@
                               </li>
                         </ul>
                   </div>
+                  <a class="d-lg-block d-none nav-link" href="#"
+                        style="position: absolute; top: 10px; right: 20px; transform: translateY(50%);">
+                        <img src="assets/img/user.svg" width="40" alt="" srcset="">
+                  </a>
             </div>
       </nav>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Launch static backdrop modal
+            </button>
+      
 
       <section class="py-5" id="header" style="background-image: url('assets/img/header.jpg');">
             <div class="px-4 py-5 my-5 text-center">
@@ -105,7 +115,8 @@
                                                 <span class=" text-white rounded-pill py-1 px-2  w-100  text-body-secondary"
                                                       style="background-color: #F9FAFB;">Marketing</span>
                                           </div>
-                                          <a href="./blog-detail.html" class="card-title xweb__card-title my-4 h5 d-inline-block text-decoration-none">My
+                                          <a href="./blog-detail.html"
+                                                class="card-title xweb__card-title my-4 h5 d-inline-block text-decoration-none">My
                                                 First Blog</a>
                                           <p class="card-text xweb__card-text">This is a wider card with supporting text
                                                 below as a
@@ -134,7 +145,8 @@
                                                 <span class=" text-white rounded-pill py-1 px-2  w-100  text-body-secondary"
                                                       style="background-color: #F9FAFB;">Marketing</span>
                                           </div>
-                                          <a href="./blog-detail.html" class="card-title xweb__card-title my-4 h5 d-inline-block text-decoration-none">My
+                                          <a href="./blog-detail.html"
+                                                class="card-title xweb__card-title my-4 h5 d-inline-block text-decoration-none">My
                                                 First Blog</a>
                                           <p class="card-text xweb__card-text">This is a wider card with supporting text
                                                 below as a
@@ -163,7 +175,8 @@
                                                 <span class=" text-white rounded-pill py-1 px-2  w-100  text-body-secondary"
                                                       style="background-color: #F9FAFB;">Marketing</span>
                                           </div>
-                                          <a href="./blog-detail.html" class="card-title xweb__card-title my-4 h5 d-inline-block text-decoration-none">My
+                                          <a href="./blog-detail.html"
+                                                class="card-title xweb__card-title my-4 h5 d-inline-block text-decoration-none">My
                                                 First Blog</a>
                                           <p class="card-text xweb__card-text">This is a wider card with supporting text
                                                 below as a
@@ -296,6 +309,29 @@
                   </footer>
             </div>
       </section>
+
+
+      <!--Login & Register Modal-->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                              
+                        </div>
+                        <div class="modal-footer">
+                              <!-- <button type="button" class="btn btn-secondary xweb__btn" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary xweb__btn xweb__btn-primary">Understood</button> -->
+                        </div>
+                  </div>
+            </div>
+      </div>
+
 </body>
 
 </html>
