@@ -74,7 +74,7 @@ body {
       background-color: #ea4335;
 }
 
-.btn-google:hover{
+.btn-google:hover {
       background-color: #d33f2f;
 }
 
@@ -83,7 +83,7 @@ body {
       background-color: #3b5998;
 }
 
-.btn-facebook:hover{
+.btn-facebook:hover {
       background-color: #344e86;
 }
 
@@ -110,6 +110,13 @@ body {
       border-color: var(--primary-color);
 }
 
+.xweb__card:hover {
+      cursor: pointer;
+      box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.275) !important;
+      scale: 1.01;
+      transition: 0.5s;
+}
+
 .xweb__card-title {
       font-weight: unset !important;
 }
@@ -117,7 +124,6 @@ body {
 .xweb__card-text {
       font-weight: 300;
 }
-
 
 .xweb__pagination {
       --bs-pagination-color: #00A9FF;
