@@ -14,6 +14,8 @@ Welcome to the XWEB Blog Template - a modern, responsive blog template designed 
 
 - `index.html`: The homepage displaying blog posts in a well-organized manner.
 - `blog-detail.html`: A detailed page for individual blog posts, enhancing the reading experience.
+- `login.html`: A login page for users to access their accounts securely.
+- `register.html`: A registration page for new users to create their accounts.
 
 ## Technologies Used
 
@@ -25,7 +27,7 @@ Welcome to the XWEB Blog Template - a modern, responsive blog template designed 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/xweb-blog-template.git
+   git clone https://github.com/kaanxweb/simple-blog.git
 
 ## Customization
 You can easily customize the template to fit your personal or branding needs by modifying the HTML and CSS files. Use the Bootstrap framework to adjust layouts and components effortlessly.
